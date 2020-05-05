@@ -224,6 +224,9 @@ footer{
     width: 100%;
 } .formLingua label:hover{
     color:  rgb(201, 121, 255);
+}#endereco{
+    display: flex;
+    flex-direction: column;
 }
 
 #footerMobile{
