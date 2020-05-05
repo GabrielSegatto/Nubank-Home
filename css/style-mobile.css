@@ -24,7 +24,6 @@ p{
 } .pRoxo{
     color: rgb(138, 5, 190);
     text-decoration: underline rgb(216, 216, 216);
-    font-size: 3vw;
     padding-top: 35px;
     transition: 200ms;
 } .pRoxo:hover{
@@ -32,7 +31,6 @@ p{
 } .pBranco{
     color: white;
     text-decoration: underline rgb(240, 215, 250);
-    font-size: 3vw;
     padding-top: 35px;
     transition: 200ms;
 } .pBranco:hover{
@@ -89,7 +87,9 @@ header{
     line-height: 1.5;
     font-weight: lighter;
     color: white;
-} #p1 img{
+} #imgUmDesk{
+    display: none;
+} #imgUmMobile{
     width: 100%;
 }
 
@@ -112,9 +112,11 @@ header{
     display: flex;
     flex-direction: column;  
     align-items: center;
-} #p3 img{
+} #imgTresMobile{
     padding-top: 55px;
     width: 55%;
+} #imgTresDesk{
+    display: none;
 }
 
 #p4{
@@ -132,9 +134,11 @@ header{
     text-decoration: underline white;
 } .h2RoxoClaro{
     color:rgb(202, 142, 226);
-} #p4 img{
+} #imgQuatroMobile{
     width: 90%;
     padding-top: 55px;
+} #imgQuatroDesk{
+    display: none;
 }
 
 #p5{

@@ -1,0 +1,197 @@
+@media (min-width: 767px){
+    
+#footerMobile{
+    width: 10vw;
+    height: 7.5vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+} #footerMobile p{
+    font-size: 18px;
+}
+
+
+
+h2{
+    font-size: 48px;
+    line-height: 1.125em;
+    font-weight: lighter;
+} p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+header{
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-right: 10vw;
+} .logoRoxo{
+    margin-left: 0
+} .headerTop{
+    width: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+.headerTop button{
+    display: none;
+} .headerNav{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+} #btnLogin{
+    margin-left: 45%;
+    color: rgb(138, 5, 190);
+    text-decoration: none;
+} .headerNav nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} .headerNav nav a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+    transition: 500ms;
+} .headerNav nav a:first-child{
+    color: rgb(138, 5, 190);
+} .headerNav nav a:hover{
+    color: rgb(138, 5, 190);
+}
+
+
+#p1{
+    margin: 15vh 0;
+    height: 80vh;
+    padding: 0 25% ;
+    background: white url(../img/bg1.jpg) no-repeat local 50% 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} #p1 div{
+    width: 55%;
+    margin-right: 5%;
+} .queroSer{
+    width: 10vw;
+    height: 7.5vh;
+    background-color: rgb(138, 5, 190);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;   
+}
+#imgUmDesk{
+    display: block;
+    width: 45%;
+    transform: translateY(40%);
+    z-index: 10;
+} #imgUmMobile{
+    display: none;
+}
+
+
+#p2{
+    flex-direction: row;
+    padding: 10% 15%;
+} #p2 a{
+    width: 40%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#p2 img{
+    width: 40%;
+    padding:0;
+}
+
+
+#p3{
+    flex-direction: row;
+    padding: 10% 15% 0 15%;
+} #p3 a{
+    width: 40%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imgTresDesk{
+    display: block;
+    width: 30%;
+    padding:0;
+} #imgTresMobile{
+    display: none;
+}
+
+
+#p4{
+    flex-direction: row;
+    padding: 10% 15%;
+} #p4 a{
+    width: 40%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imgQuatroDesk{
+    display: block;
+    width: 30%;
+    padding:0;
+} #imgQuatroMobile{
+    display: none;
+}
+
+
+#p5{
+    background-size: 100vw;
+    padding: 20% 15%;
+} #p5 h2{
+    width: 40%;
+}
+
+#p6{
+    background: url(../img/bg3-desk.jpg);
+    background-size: 100vw;
+    padding: 20% 15%;
+} #p6 h2{
+    width: 40%;
+}
+
+#p7{
+    background: url(../img/bg4-desk.jpg);
+    background-size: 100vw;
+    padding: 20% 15%;
+} #p7 h2{
+    width: 40%;
+}
+
+.linkContainer{
+    flex-direction: row;
+
+} .footerSubBOx div{
+    width: 15%;
+    margin-right: 5%;
+} .footerSubBOx{
+    padding: 55px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} .logoBranco{
+    margin-bottom: 0;
+    margin-left: 5%;
+} #endereco{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 35%;
+}
