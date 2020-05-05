@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.25em;
+    font-weight: lighter;
+} .h2Roxo{
+    color: rgb(138, 5, 190);
+} .h2Cinza{
+    color: rgb(118, 118, 118);
+} .h2Branco{
+    color: white;
+} 
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+} .pRoxo{
+    color: rgb(138, 5, 190);
+    text-decoration: underline rgb(216, 216, 216);
+    font-size: 3vw;
+    padding-top: 35px;
+    transition: 200ms;
+} .pRoxo:hover{
+    text-decoration: underline rgb(138, 5, 190);
+} .pBranco{
+    color: white;
+    text-decoration: underline rgb(240, 215, 250);
+    font-size: 3vw;
+    padding-top: 35px;
+    transition: 200ms;
+} .pBranco:hover{
+    text-decoration: underline white;
+} 
+
+.boxLink{
+    width: 100%;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 6.5vh;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    background-color: white;
+} .headerTop{
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+} .logoRoxo{
+    margin-left: 5%;
+}.headerTop button{
+    margin-right: 5%;
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    box-shadow: 0;
+    border: 0;
+    border-radius: 50%;
+    transition: 1s;
+    outline: none;
+}.headerTop button:hover{
+    background-color: #F9F2FC;
+}
+
+#p1{
+    margin-top: 6.5vh;
+    width: 100%;
+    background: white url(../img/bg1.jpg) no-repeat local 50% 0%;
+    padding: 25% 5% 15% 5%;
+}   #p1 p{
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 75%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: white;
+} #p1 img{
+    width: 100%;
+}
+
+
+#p2{
+    width: 100%;
+    background-color: #F5F5F5; 
+    padding: 19% 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+}#p2 img{
+    width: 100%;
+    padding: 55px 0;
+}
+
+#p3{
+    width: 100%;
+    background-color: white; 
+    padding: 19% 5% 0 5%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+} #p3 img{
+    padding-top: 55px;
+    width: 55%;
+}
+
+#p4{
+    width: 100%;
+    background-color: white; 
+    padding: 19% 5% 0 5%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    background-color: rgb(83, 0, 130);
+} .h2Rewards{
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(177, 0, 247);
+} .h2Rewards:hover{
+    text-decoration: underline white;
+} .h2RoxoClaro{
+    color:rgb(202, 142, 226);
+} #p4 img{
+    width: 90%;
+    padding-top: 55px;
+}
+
+#p5{
+    background: url(../img/bg2.jpg) no-repeat local 50% 50% ;
+    background-size: 200vw;
+    padding: 40% 5%;
+}
+
+#p6{
+    background: url(../img/bg3.jpg) no-repeat local 50% 50% ;
+    background-size: 100vw;
+    padding: 40% 5%;
+}
+
+#p7{
+    background: url(../img/bg4.jpg) no-repeat local 50% 50% ;
+    background-size: 100vw;
+    padding: 40% 5%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #111111;
+    padding-top: 55px;
+} .linkContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} footer div ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 5%;
+} footer div ul p{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 30px;
+} footer div ul a{
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-decoration: none;
+} footer div ul a:last-child{
+    padding-bottom: 0;
+} footer div ul a:hover{
+    color: rgb(201, 121, 255);
+} .atendimento{
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 10px;
+} .footerSubBOx{
+    border: 0.5px rgb(34, 34, 34) solid;
+    padding: 55px 5%;
+} .logoBranco{
+    margin-bottom: 40px;
+} .footerSubBOx div{
+    width: 50%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} .midiaSocial:hover{
+    fill: rgb(201, 121, 255);
+} .formLingua{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 5%;
+    justify-content: space-between;
+} .formLingua  form{
+    width: 100%;
+} .formLingua label:hover{
+    color:  rgb(201, 121, 255);
+}
+
+#footerMobile{
+    width: 100%;
+    height: 6.5vh;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} #footerMobile a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} #footerMobile p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
